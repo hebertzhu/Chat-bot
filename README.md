@@ -3,6 +3,8 @@ This is only chatbot base on chatgpt.
 ## 在GitHub静态页面上部署一个调用OpenAI API的电商平台聊天客服机器人案例
 ## 在这个例子中，将使用JavaScript和HTML
 ### 首先创建一个新的HTML文件，然后在其中编写以下代码：
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,6 +34,8 @@ This is only chatbot base on chatgpt.
 
 ### 这个HTML文件创建了一个包含聊天窗口的页面。我们使用了一个外部的JavaScript库，@openai/api，它可以让我们轻松地调用OpenAI的API。我们还创建了一个新的JavaScript文件，用于实现聊天机器人的逻辑。
 ###　接下来，您需要在您的repository中创建一个新的JavaScript文件，然后在其中编写以下代码：
+
+
 const openai = require('@openai/api')('YOUR_API_KEY')
 
 const conversation = document.querySelector('.conversation ul')
