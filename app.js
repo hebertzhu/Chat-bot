@@ -1,4 +1,4 @@
-const openaiApiKey = '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';
+const openaiApiKey = 'ｏｐｅｎａｉ＿ａｐｉ＿ｋｅｙ';
 const chatbotEndpoint = 'https://api.openai.com/v1/engine/davinci-codex/completions';
 
 const generateResponse = async (message) => {
